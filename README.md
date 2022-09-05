@@ -35,3 +35,19 @@ vca ./path/to/file <slot>/<module>/<port>
 ### port
 
 [Leon to provide instructions.]
+
+### Example
+
+```
+./bin/vca ./fixtures/vlan1.txt 2/1/3
+/Users/ricallinson/Js/vca/fixtures/vlan1.txt
+[
+	{
+		"id": "60",
+		"name": "VLAN-SIX",
+		"qtags": [
+			"untagged"
+		]
+	}
+]
+```
