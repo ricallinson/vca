@@ -1,0 +1,139 @@
+SSH@xxx>show vlan
+Total PORT-VLAN entries: 10
+Maximum PORT-VLAN entries: 500
+
+Legend: [Stk=Stack-Id, S=Slot]
+
+PORT-VLAN 15, Name VLAN-15, Priority level0, Spanning tree Off
+ Untagged Ports: (U1/M1)  39
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  35  36  39  40  41  42
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 25, Name VLAN-25, Priority level0, Spanning tree Off
+ Untagged Ports: None
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U3/M3)   1
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 35, Name VLAN-35, Priority level0, Spanning tree Off
+ Untagged Ports: (U1/M1)  44  48
+ Untagged Ports: (U3/M1)  31  33
+ Untagged Ports: (U5/M1)  43
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  35  36  39  40  41  42
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: (U2/M1)   9  10  13  15  17  38
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 45, Name VLAN-45, Priority level0, Spanning tree Off
+ Untagged Ports: (U3/M1)  25  26  27  40  41  42
+ Untagged Ports: (U5/M1)  40
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  35  36  39  40  41  42
+   Tagged Ports: (U3/M1)   1
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 55, Name VLAN-55, Priority level0, Spanning tree Off
+ Untagged Ports: (U3/M1)  23  24
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  35  39  40  41  42
+   Tagged Ports: (U3/M1)   1
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 65, Name VLAN-65, Priority level0, Spanning tree Off
+ Untagged Ports: (U2/M1)  37
+ Untagged Ports: (U5/M1)   7  19  21  22  23  24
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  35  36  39  40  41  42
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10  16
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 75, Name VLAN-75, Priority level0, Spanning tree Off
+ Untagged Ports: (U1/M1)   5   6   8   9  10  12  13  15  16  17  18  19
+ Untagged Ports: (U1/M1)  20  21  23  26  27  28  29  34  35  36  37  42
+ Untagged Ports: (U1/M1)  43  46
+ Untagged Ports: (U2/M1)   2   3   5   6   7   8  11  12  14  20  24  34
+ Untagged Ports: (U2/M1)  44
+ Untagged Ports: (U3/M1)   5   9  10  11  13  14  35  36  39
+ Untagged Ports: (U4/M1)   1   2   3   5  17  18  19  21  23  24  25  29
+ Untagged Ports: (U4/M1)  33  35  36  37  38  43  44  45
+ Untagged Ports: (U5/M1)   1   2   3   4   8  10  25  26  28  29  30  31
+ Untagged Ports: (U5/M1)  32  33  34  35  36  37  38  39  42  44  45  47
+ Untagged Ports: (U5/M1)  48
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  27  35  36  39  40  41  42
+   Tagged Ports: (U3/M1)  47  48
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10  16  28
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: (U1/M1)  14  24  38
+ DualMode Ports: (U2/M1)  16  21  22  25  28  29  30  31  47  48
+ DualMode Ports: (U3/M1)   1  29  30  34  38
+ DualMode Ports: (U4/M1)  27  30  31  32  34
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 85, Name VLAN-85, Priority level0, Spanning tree Off
+ Untagged Ports: (U4/M1)  40
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U3/M3)   1
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 95, Name VLAN-95, Priority level0, Spanning tree Off
+ Untagged Ports: None
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U3/M1)   1
+   Tagged Ports: (U3/M3)   1
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+
+PORT-VLAN 105, Name VLAN-105, Priority level0, Spanning tree Off
+ Untagged Ports: None
+   Tagged Ports: (U1/M1)  14  24
+   Tagged Ports: (U1/M3)   1
+   Tagged Ports: (U2/M1)  26  27  28  35  38  39  40  41  42
+   Tagged Ports: (U3/M1)  47
+   Tagged Ports: (U3/M3)   1
+   Tagged Ports: (U4/M1)   7   8   9  10  27  28  30  31  32  34  46
+   Tagged Ports: (U5/M1)   5   6   9  11  12  13  14  15  16  17  18
+   Uplink Ports: None
+ DualMode Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled

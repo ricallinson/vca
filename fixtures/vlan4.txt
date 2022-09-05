@@ -1,0 +1,49 @@
+SSH@xxx>show vlan
+Total PORT-VLAN entries: 8
+Maximum PORT-VLAN entries: 500
+
+Legend: [Stk=Stack-Id, S=Slot]
+
+PORT-VLAN 1, Name DEFAULT-VLAN, Priority level0, On
+ Untagged Ports: (U1/M1)  11  12
+ Untagged Ports: (U1/M2)   1   2
+ Untagged Ports: (U1/M3)   1   2
+   Tagged Ports: None
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 2, Name RED, Priority level0, On
+ Untagged Ports: None
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 3, Name BLUE, Priority level0, On
+ Untagged Ports: None
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 4, Name GREEN, Priority level0, On
+ Untagged Ports: None
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 5, Name VIOLET, Priority level0, On
+ Untagged Ports: (U1/M1)   4   7  10
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 6, Name ORANGE, Priority level0, On
+ Untagged Ports: None
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 7, Name INDIGO, Priority level0, On
+ Untagged Ports: None
+   Tagged Ports: (U1/M1)   4   7  10
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled
+PORT-VLAN 8, Name BROWN, Priority level0, On
+ Untagged Ports: (U1/M1)   1   2   3   5   6   8   9
+   Tagged Ports: (U1/M3)   1
+ Mac-Vlan Ports: None
+     Monitoring: Disabled

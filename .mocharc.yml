@@ -1,0 +1,5 @@
+timeout: '15s'
+spec:
+  - './**/*.spec.js'
+# bail: true
+retries: 0
