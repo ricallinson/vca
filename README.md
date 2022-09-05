@@ -39,7 +39,7 @@ vca ./path/to/file <slot>/<module>/<port>
 ### Example
 
 ```
-./bin/vca ./fixtures/vlan1.txt 2/1/3
+> ./bin/vca ./fixtures/vlan1.txt 2/1/3
 /Users/ricallinson/Js/vca/fixtures/vlan1.txt
 [
 	{
