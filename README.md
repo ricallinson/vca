@@ -16,6 +16,10 @@ npm i
 
 [Leon to provide instructions.]
 
+```
+vca ./path/to/file <slot>/<module>/<port>
+```
+
 ### ./path/to/file
 
 [Leon to provide instructions.]
@@ -31,7 +35,3 @@ npm i
 ### port
 
 [Leon to provide instructions.]
-
-```
-vca ./path/to/file <slot>/<module>/<port>
-```
