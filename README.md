@@ -12,10 +12,26 @@ cd ./vca
 npm i
 ```
 
-## Use
+## CLI Use
+
+[Leon to provide instructions.]
+
+### ./path/to/file
+
+[Leon to provide instructions.]
+
+### slot
+
+[Leon to provide instructions.]
+
+### module
+
+[Leon to provide instructions.]
+
+### port
 
 [Leon to provide instructions.]
 
 ```
-./bin/vca ./dir 1/1/1
+vca ./path/to/file <slot>/<module>/<port>
 ```
