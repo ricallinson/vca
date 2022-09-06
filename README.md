@@ -17,10 +17,10 @@ npm i
 [Leon to provide instructions.]
 
 ```
-vca ./path/to/file <slot>/<module>/<port>
+vca ./path/to/source <slot>/<module>/<port>
 ```
 
-### ./path/to/file
+### ./path/to/source
 
 [Leon to provide instructions.]
 

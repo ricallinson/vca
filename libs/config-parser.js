@@ -2,6 +2,16 @@
 const path = require('path');
 const fs = require('fs');
 
+function isDirectory(path) {
+    try {
+        var stat = fs.lstatSync(path);
+        return stat.isDirectory();
+    } catch (e) {
+        // lstatSync throws an error if path doesn't exist
+        return false;
+    }
+}
+
 function parseIntArray(arr) {
     let result = [];
     arr.forEach((item) => {
@@ -70,9 +80,14 @@ exports.parseVlanDetail = function(vlan, line) {
     }
 };
 
-exports.parseVlans = function(dir) {
+exports.parseVlans = function(path) {
     let vlans = [];
-    let lines = this.readFileToString(dir);
+    let lines;
+    if (isDirectory(path)) {
+        lines = this.readDirFilesToString(path);
+    } else {
+        lines = this.readFileToString(path);
+    }
     for (var i = 0; i < lines.length; i++) {
         if (lines[i].startsWith('PORT-VLAN')) {
             vlans.push(this.parseVlanHeader(lines[i]));
